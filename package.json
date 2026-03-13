@@ -1,0 +1,9 @@
+{
+  "name": "homeo-companion-backend",
+  "version": "1.0.0",
+  "description": "Homeo Companion Backend API",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
