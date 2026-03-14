@@ -36,7 +36,7 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         model: 'llama-3.3-70b-versatile',
         messages: groqMessages,
-        max_tokens: type === 'nutrition' ? 200 : 400,
+        max_tokens: type === 'nutrition' ? 200 : 800,
         temperature: type === 'nutrition' ? 0.3 : 0.85
       })
     });
